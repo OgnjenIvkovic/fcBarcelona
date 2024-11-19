@@ -1,0 +1,209 @@
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 6px;
+    overflow: hidden;
+    background-image: url('../img/slika3.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #2b310a;
+}
+
+h3{
+    font-size:50px;
+    font-weight: bold;
+    font-style: italic;
+}
+form{
+text-align: center;
+    width: 100%;
+    margin: 10px 0px;
+  
+}
+.ime{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+   text-align: center;
+   font-weight: bold;
+   margin: auto;
+
+}
+#I{
+    text-decoration: none;
+	font-size:10px;
+    width: 200px;
+	height:40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.radio{
+   
+	font-size:10px;
+    width: auto;
+	height:40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.email{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+   text-align: center;
+   font-weight: bold;
+   margin: auto;
+}
+#email{
+    text-decoration: none;
+	font-size:10px;
+    width: 200px;
+	height:40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.poruka{
+    width: 300px;
+	height:250px;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+.cek{
+    width: 15px;
+	height:30px;
+    font-size: 20px;
+}
+
+.dugme{
+    width: 300px;
+	height:50px;
+	background-color: #8851A2;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-size:10px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+
+.lopta{
+    width: 150px;
+    height: 150px;
+    background-image: url('../img/lopta2.png');
+    background-size: contain;
+background-repeat: no-repeat;
+    border-radius: 50%;
+    animation: animacija-lopte 2s linear infinite;
+}
+    @keyframes animacija-lopte {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-800px);
+        }
+   
+}
+
+
+
+    body {
+        padding: 0;
+        margin: 0;
+        background-image: url('../img/6.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+
+@media  screen and (min-width: 320px) and (max-width: 425px)
+{
+
+    ul {
+
+        list-style-type: none;
+        margin: 0;
+        padding: 5px 6px;
+        overflow: hidden;
+        background-image: url('../img/slika3.jpg');
+        background-repeat: no-repeat;
+       background-size: cover;
+    }
+    
+    li {
+        margin: 0;
+        display: block;
+        margin-bottom: 3px;
+    }
+    
+    li a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    li a:hover {
+        background-color: #2b310a;
+    }
+    body{
+        background-image: url('../img/6.jpg');
+        background-repeat: repeat;
+
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1024px)
+{
+
+    ul {
+
+        list-style-type: none;
+        margin: 0;
+        padding: 5px 6px;
+        overflow: hidden;
+        background-image: url('../img/slika3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    li {
+        margin: 0;
+        display: block;
+        margin-bottom: 3px;
+    }
+    
+    li a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    li a:hover {
+        background-color: #2b310a;
+    }
+}
